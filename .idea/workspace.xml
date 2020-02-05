@@ -37,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -266,6 +267,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="808" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580920814610" />
+    <state x="523" y="120" key="CommitChangelistDialog2" timestamp="1580929091368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="523" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580929091368" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1580927889290">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
