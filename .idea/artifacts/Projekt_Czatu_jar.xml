@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Projekt Czatu:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Projekt_Czatu_jar</output-path>
+    <root id="archive" name="Projekt Czatu.jar">
+      <element id="module-output" name="MultiUserChat" />
+      <element id="module-output" name="ChatClient" />
+      <element id="module-output" name="ChatServer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatClient/lib/commons-lang3-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/commons-lang3-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/logback-core-1.1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/logback-classic-1.1.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
