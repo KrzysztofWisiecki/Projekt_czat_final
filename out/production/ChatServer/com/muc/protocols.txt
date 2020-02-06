@@ -14,15 +14,16 @@ User & Server
     * direct messages
     * broadcast messages / group messaging
 
-
+install telnet in command promt
+command in command promt: telnet localhost <port>
 Commands:
-
+accounts: admin admin : guest guest
     login <user> <password>
     logoff
 
     msg <user>  body....
-    guest: "msg jim Hello World" <-- sent
-    jim: "msg guest Hello World" <-- recv
+    guest: "msg admin Hello World" <-- sent
+    admin: "msg guest Hello World" <-- recv
 
 
     #topic <-- chatroom / group chat

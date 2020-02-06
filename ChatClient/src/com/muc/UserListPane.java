@@ -46,8 +46,7 @@ public class UserListPane extends JPanel implements  UserStatusListener{
         frame.getContentPane().add(userListPane, BorderLayout.CENTER);
         frame.setVisible(true);
         if(client.connect()){
-            try {
-                client.login("guest","guest");
+            try {                client.login("guest","guest");
             } catch (IOException e) {
                 e.printStackTrace();
             }

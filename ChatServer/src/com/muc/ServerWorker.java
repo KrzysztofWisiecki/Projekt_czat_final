@@ -26,9 +26,7 @@ public class ServerWorker extends Thread {
     public void run() {
         try {
             handleClientSocket();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
@@ -117,6 +115,9 @@ public class ServerWorker extends Thread {
             if (!login.equals(worker.getLogin())) {
                 worker.send(onlineMsg);
             }
+            if (login.equals(worker.getLogin())) {
+                workerList.remove(worker);
+            }
         }
         clientSocket.close();
     }
@@ -130,7 +131,7 @@ public class ServerWorker extends Thread {
             String login = tokens[1];
             String password = tokens[2];
 
-            if ((login.equals("guest") && password.equals("guest")) || (login.equals("jim") && password.equals("jim")) ) {
+            if ((login.equals("guest") && password.equals("guest")) || (login.equals("admin") && password.equals("admin")) ) {
                 String msg = "ok login\n";
                 outputStream.write(msg.getBytes());
                 this.login = login;

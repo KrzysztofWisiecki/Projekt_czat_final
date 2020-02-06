@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33f839d5-30c1-4962-954d-52526a4be2e4" name="Default" comment="" />
+    <list default="true" id="33f839d5-30c1-4962-954d-52526a4be2e4" name="Default" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatClient/src/com/muc/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatClient/src/com/muc/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatClient/src/com/muc/UserListPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatClient/src/com/muc/UserListPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServer/src/com/muc/ServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServer/src/com/muc/ServerWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServer/src/com/muc/protocols.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServer/src/com/muc/protocols.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatClient/com/muc/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatClient/com/muc/LoginWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatClient/com/muc/LoginWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/muc/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/muc/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/muc/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/muc/ServerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/muc/ServerWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/muc/ServerWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/muc/protocols.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/muc/protocols.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +60,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.LoginWindow">
+  <component name="RunManager" selected="Application.ServerMain">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -210,9 +225,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.LoginWindow" />
         <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.UserListPane" />
       </list>
     </recent_temporary>
@@ -240,6 +255,14 @@
       <option name="presentableId" value="Default" />
       <updated>1492533069085</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1580929093865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580929093865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -249,6 +272,10 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="184" key="#Project_Structure" timestamp="1580927744701">
@@ -267,26 +294,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="808" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580920814610" />
-    <state x="523" y="120" key="CommitChangelistDialog2" timestamp="1580929091368">
+    <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581000707565">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="523" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580929091368" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1580927889290">
+    <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581000707565" />
+    <state x="523" y="120" key="CommitChangelistDialog2" timestamp="1581002218319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580927889290" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1580927889290">
+    <state x="523" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581002218319" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1581002218334">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580927889290" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1580927889290">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581002218334" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1581002218334">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580927889290" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1580927889290">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581002218334" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1581002218334">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580927889290" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581002218334" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1581002218334">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1581002218334" />
     <state x="440" y="100" key="SettingsEditor" timestamp="1580928063526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -295,10 +326,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="764" y="394" key="classpath-attribute-editor/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580928045930" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1580928895650">
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1580999617244">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580928895650" />
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1680.31.1680.1020@0.0.1920.1050" timestamp="1580999617244" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
