@@ -18,8 +18,11 @@ User & Server
     * broadcast messages / group messaging
 
 install telnet in command promt
+
 command in command promt: telnet localhost <port>
+   
 Commands:
+
 accounts: admin admin : guest guest
     login <user> <password>
     logoff
